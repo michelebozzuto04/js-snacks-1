@@ -1,5 +1,5 @@
-const string1 = prompt("Inserisci una parola:");
-const string2 = prompt("Inserisci un'altroa parola:");
+const string1 = String(prompt("Inserisci una parola:"));
+const string2 = String(prompt("Inserisci un'altroa parola:"));
 
 if (string1.length > string2.length) {
     console.log(string2, string1);
