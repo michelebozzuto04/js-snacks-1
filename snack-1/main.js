@@ -7,5 +7,4 @@ if (num1 > num2) {
     console.log("Il numero più grande è:", num2);
 } else {
     console.log("I numeri sono uguali");
-
 }
